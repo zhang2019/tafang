@@ -9,5 +9,9 @@
 /**********  地图配置数据 **********/
 #define MAP_PATH  ":/new/prefix1/zhujiemian.jpg" //地图图片路径
 
+//敌人血量，行进速度
+#define SPEED 10
+#define BLOOD 100
+
 
 #endif // CONFIG_H

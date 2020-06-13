@@ -1,12 +1,11 @@
 <RCC>
     <qresource prefix="/new/prefix1">
         <file>zhujiemian.jpg</file>
-        <file>btn.png</file>
-        <file>cichangjing.png</file>
-        <file>jiandanmoshi.jpg</file>
-        <file>kunnanmoshi.jpg</file>
-        <file>xuanguan1.png</file>
-        <file>xuanguan2.png</file>
-        <file>fanhui.png</file>
+        <file>ditu.jpg</file>
+        <file>xin_paota.png</file>
+        <file>enermy.png</file>
+        <file>back_button.png</file>
+        <file>bullet.png</file>
+        <file>start_button.png</file>
     </qresource>
 </RCC>

@@ -16,20 +16,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    jidanmoshi.cpp \
-    kunnanmoshi.cpp \
+    enermy.cpp \
     main.cpp \
     mainscene.cpp \
     mybutton.cpp \
-    mywindow.cpp
+    start.cpp \
+    tower.cpp
 
 HEADERS += \
     config.h \
-    jidanmoshi.h \
-    kunnanmoshi.h \
+    enermy.h \
     mainscene.h \
     mybutton.h \
-    mywindow.h
+    start.h \
+    tower.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -38,3 +38,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
+
+FORMS +=
