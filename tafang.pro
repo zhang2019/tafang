@@ -16,18 +16,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    bullet.cpp \
     enermy.cpp \
     main.cpp \
     mainscene.cpp \
     mybutton.cpp \
+    preenermy.cpp \
     start.cpp \
     tower.cpp
 
 HEADERS += \
+    bullet.h \
     config.h \
     enermy.h \
     mainscene.h \
     mybutton.h \
+    preenermy.h \
     start.h \
     tower.h
 

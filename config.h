@@ -13,5 +13,9 @@
 #define SPEED 10
 #define BLOOD 100
 
+//×Óµ¯ËÙ¶È£¬ÉËº¦
+#define Bspeed 20
+#define Bdamage 20
+
 
 #endif // CONFIG_H

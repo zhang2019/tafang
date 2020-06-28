@@ -54,6 +54,13 @@ void MainScene::paintEvent(QPaintEvent *event)
     painter.drawPixmap(950,370,80,70,a_enermy.mEnermy);
     painter.drawPixmap(950,470,80,70,a_enermy.mEnermy);
     painter.drawPixmap(950,570,80,70,a_enermy.mEnermy);
+    //»­³öÅÚµ¯
+    painter.drawPixmap(a_bullet.x,a_bullet.y,60,40,a_bullet.mbullet);
+    painter.drawPixmap(510,270,60,40,a_bullet.mbullet);
+    painter.drawPixmap(570,370,60,40,a_bullet.mbullet);
+    painter.drawPixmap(630,470,60,40,a_bullet.mbullet);
+    painter.drawPixmap(690,570,60,40,a_bullet.mbullet);
+
 
 }
 

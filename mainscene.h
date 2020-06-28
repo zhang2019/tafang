@@ -5,6 +5,7 @@
 #include<tower.h>
 #include<QMouseEvent>
 #include"enermy.h"
+#include"bullet.h"
 class MainScene : public QMainWindow
 {
     Q_OBJECT
@@ -22,6 +23,10 @@ public:
 
     //敌人对象
     Enermy a_enermy;
+
+    //炮弹对象
+    Bullet a_bullet;
+
     //计时器对象
     QTimer my_time;
 };

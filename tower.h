@@ -1,6 +1,6 @@
 #ifndef TOWER_H
 #define TOWER_H
-
+#include"enermy.h"
 #include<QPixmap>
 class Tower
 {
@@ -11,6 +11,8 @@ public:
     QPixmap mtower;
     int x;
     int y;
+
+
 };
 
 #endif // TOWER_H
